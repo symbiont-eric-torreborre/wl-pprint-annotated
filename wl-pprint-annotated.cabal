@@ -40,15 +40,11 @@ library
       semigroups >=0.9 && <1
   exposed-modules:
     Text.PrettyPrint.Annotated.WL
-  other-modules:
-    Paths_wl_pprint_annotated
   default-language: Haskell2010
 
 test-suite wl-pprint
   type: exitcode-stdio-1.0
   main-is: WLPPrintTests.hs
-  other-modules:
-    Paths_wl_pprint_annotated
   hs-source-dirs:
     test
   default-extensions: FlexibleInstances TypeSynonymInstances DeriveFunctor DeriveFoldable DeriveTraversable DeriveGeneric DefaultSignatures
